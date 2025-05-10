@@ -158,7 +158,37 @@ public class EraRetPala : Rotation
                               me.Auras.Contains("Wither") ||
                               me.Auras.Contains("Seething Plague") ||
                               me.Auras.Contains("Death's Door") ||
-                              me.Auras.Contains("Plague Strike");
+                              me.Auras.Contains("Plague Strike")
+                              me.Auras.Contains("Deadly Poison") ||
+                              me.Auras.Contains("Crippling Poison") ||
+                              me.Auras.Contains("Mind-numbing Poison") ||
+                              me.Auras.Contains("Wound Poison") ||
+                              me.Auras.Contains("Instant Poison") ||
+                              me.Auras.Contains("Poisoned Shot") ||
+                              me.Auras.Contains("Toxic Spit") ||
+                              me.Auras.Contains("Viper Sting") ||
+                              me.Auras.Contains("Serpent Sting") ||
+                              me.Auras.Contains("Toxic Saliva") ||
+                              me.Auras.Contains("Venom Spit") ||
+                              me.Auras.Contains("Tainted Mind") ||
+                              me.Auras.Contains("Noxious Poison") ||
+                              me.Auras.Contains("Tainted Howl") ||
+                              me.Auras.Contains("Venomous Bite") ||
+                              me.Auras.Contains("Venomous Fang") ||
+                              me.Auras.Contains("Toxic Vapors") ||
+                              me.Auras.Contains("Paralyzing Poison") ||
+                              me.Auras.Contains("Deadly Swiftness") ||
+                              me.Auras.Contains("Poisoned Spear") ||
+                              me.Auras.Contains("Toxic Bolt") ||
+                              me.Auras.Contains("Envenom") ||
+                              me.Auras.Contains("Toxic Contagion") ||
+                              me.Auras.Contains("Poisoned Wound") ||
+                              me.Auras.Contains("Neurotoxin") ||
+                              me.Auras.Contains("Venomous Totem") ||
+                              me.Auras.Contains("Corrosive Poison") ||
+                              me.Auras.Contains("Toxic Mist") ||
+                              me.Auras.Contains("Putrid Poison") ||
+                              me.Auras.Contains("Poison Stinger");
 
         if (hasDisease && Api.Spellbook.CanCast("Purify") && mana > 32)
         {
